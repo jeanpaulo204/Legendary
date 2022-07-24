@@ -61,6 +61,8 @@ justify-content: center;
 
 
 
+
+
 .center {
 color: rgb(6, 60, 97);
 margin-top: 30px;
@@ -71,12 +73,107 @@ margin-top: 30px;
   }
 
 
+  @media (max-width: 1400px)
+  {
+    .center {
+      margin-left: 100px;
+      color: rgb(6, 60, 97);
+      }
+  
+      .btn-outline-dark {
+        width: 200px;
+        font-family: fantasy;
+        font-size: 30px;
+}
+
+.video{
+width:360px;
+height: 250px;
+}
+
+.box {
+  display: flex ;
+
+  
+  }
 
 
-@media (max-width: 700px)
+    }
+
+
+
+
+    @media (max-width: 1230px)
+    {
+      .center {
+        margin-left: 100px;
+        color: rgb(6, 60, 97);
+        }
+    
+        .btn-outline-dark {
+          width: 200px;
+          font-family: fantasy;
+          font-size: 30px;
+          }
+  
+  .video{
+  width:300px;
+  height: 275px;
+  }
+      }
+
+@media (max-width: 800px)
+  {
+    .center {
+      margin-left: 100px;
+      color: rgb(6, 60, 97);
+      }
+  
+      .btn-outline-dark {
+        width: 200px;
+        font-family: fantasy;
+        font-size: 30px;
+        }
+
+.video{
+width:250px;
+height: 130px;
+}
+
+    }
+@media (max-width: 600px)
 {
   .center {
     margin-left: 100px;
     color: rgb(6, 60, 97);
     }
+
+    .btn-outline-dark {
+      width: 200px;
+      font-family: fantasy;
+      font-size: 30px;
+      }
+
+      .video{
+        width:500px;
+        height: 400px;
+        }
+}
+@media (max-width: 350px)
+{
+  .center {
+    margin-left: 100px;
+    color: rgb(6, 60, 97);
+    }
+
+    .btn-outline-dark {
+      width: 200px;
+      font-family: fantasy;
+      font-size: 30px;
+      }
+
+      .video{
+        width:260px;
+        height: 200px;
+        }
 }
